@@ -29,6 +29,7 @@ A console-based and SFML-enhanced C++ pathfinding visualizer that supports multi
 1. **Maze Generation**  
    - A 25×50 grid maze is randomly generated.
    - Guarantees at least one valid path from start to end.
+   - GUI rendering using SFML
 
 2. **SFML Menu**  
    - Presents a graphical menu to choose algorithms or quit.
@@ -51,13 +52,7 @@ A console-based and SFML-enhanced C++ pathfinding visualizer that supports multi
 
 ---
 
-## Screenshots
 
-| Console View | SFML Menu |
-|--------------|-----------|
-| ![Maze Console](./screenshots/console_maze.png) | ![SFML Menu](./screenshots/sfml_menu.png) |
-
----
 
 ## Installation
 
@@ -74,7 +69,7 @@ Open .sln file
 
 Right-click solution → Retarget if necessary
 
-Ensure SFML is properly linked
+Ensure SFML is properly linked (The files in repository are for vs 2022 using SFML version 2.5.1)
 
 Build & Run
 
@@ -141,8 +136,6 @@ A: Yes, it works on Windows, Linux, and macOS (with SFML installed).
 ---
 
 ### Future Plans
-
-GUI visualization of pathfinding in real-time
 
 Maze editor and custom input
 
